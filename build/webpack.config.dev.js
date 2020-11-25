@@ -2,7 +2,6 @@
  * @file webpack.config.dev.js
  * @author nimingdexiaohai(nimingdexiaohai@163.com)
  */
-const config = require('./config');
 const webpack = require('webpack');
 const MockUp = require('../mock/index');
 const proxy = require('../src/common/proxy');
