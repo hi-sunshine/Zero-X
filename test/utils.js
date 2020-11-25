@@ -54,7 +54,7 @@ export const createTest = (Compo, propsData = {}, mounted = false) => {
         mounted = propsData;
         propsData = {};
     }
-    const noahv = createEle();
+    const ele = createEle();
     const Ctor = Vue.extend(Compo);
-    return new Ctor({ propsData }).$mount(mounted === false ? null : noahv);
+    return new Ctor({ propsData }).$mount(mounted === false ? null : ele);
 };
