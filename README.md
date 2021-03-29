@@ -1,5 +1,5 @@
 # Zero-X
-A UI Scaffolding with Vue.
+A UI Scaffolding with Vue. See: https://juejin.cn/post/6899490752028475406
 
 
 # Note
